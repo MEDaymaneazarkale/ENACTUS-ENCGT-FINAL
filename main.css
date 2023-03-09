@@ -260,7 +260,7 @@ html {
         background-image: url("images/RDS.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: -700px center;
         background-color: #303030;
         background-blend-mode: multiply;
     }
@@ -281,7 +281,7 @@ html {
         background-blend-mode: multiply;
     }
     .background-7 {
-        background-image: url("images/enactus\ background.jpg");
+        background-image: url("images/Enfactus.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -362,4 +362,11 @@ html {
 }
 #navbar {
     transition: top  .3s;
+}
+.background-gradiant {
+    background: rgb(0,0,0);
+background: -moz-linear-gradient(0deg, rgba(0,0,0,0.9808298319327731) 0%, rgba(255,198,0,0.8519782913165266) 48%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.9808298319327731) 0%, rgba(255,198,0,0.8519782913165266) 48%, rgba(0,0,0,1) 100%);
+background: linear-gradient(0deg, rgba(0,0,0,0.9808298319327731) 0%, rgba(255,198,0,0.8519782913165266) 48%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
